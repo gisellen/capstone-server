@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "listings",
+  "collectionName": "tests",
   "info": {
-    "name": "Listing",
-    "description": ""
+    "name": "Test"
   },
   "options": {
     "increments": true,
@@ -14,17 +13,14 @@
     "Title": {
       "type": "string"
     },
-    "Rating": {
-      "type": "integer"
-    },
-    "Notes": {
+    "Body": {
       "type": "richtext"
     },
-    "Started_At": {
-      "type": "date"
+    "Date_Finished": {
+      "type": "datetime"
     },
-    "Finished_At": {
-      "type": "date"
+    "isTrue": {
+      "type": "boolean"
     }
   }
 }
