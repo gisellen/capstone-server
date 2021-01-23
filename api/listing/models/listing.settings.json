@@ -25,6 +25,25 @@
     },
     "Finished_At": {
       "type": "date"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "filter": {
+      "model": "filter",
+      "via": "listings"
+    },
+    "tags": {
+      "collection": "tags",
+      "via": "listing"
     }
   }
 }

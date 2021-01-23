@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tags",
+  "info": {
+    "name": "Tags"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Tags": {
+      "type": "string"
+    },
+    "listing": {
+      "via": "tags",
+      "model": "listing"
+    }
+  }
+}
