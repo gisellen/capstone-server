@@ -42,8 +42,18 @@
       "via": "listing"
     },
     "filter": {
-      "via": "listings",
-      "model": "filter"
+      "model": "filter",
+      "via": "listings"
+    },
+    "Status": {
+      "type": "enumeration",
+      "enum": [
+        "Planning",
+        "Current",
+        "Completed"
+      ],
+      "default": "Planning",
+      "required": true
     }
   }
 }

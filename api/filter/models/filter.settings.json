@@ -15,8 +15,8 @@
       "type": "string"
     },
     "listings": {
-      "collection": "listing",
-      "via": "filter"
+      "via": "filter",
+      "collection": "listing"
     }
   }
 }
