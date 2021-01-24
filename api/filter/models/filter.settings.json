@@ -16,8 +16,7 @@
     },
     "listings": {
       "collection": "listing",
-      "via": "filters",
-      "dominant": true
+      "via": "filter"
     }
   }
 }

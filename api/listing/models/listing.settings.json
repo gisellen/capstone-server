@@ -41,9 +41,9 @@
       "collection": "tags",
       "via": "listing"
     },
-    "filters": {
+    "filter": {
       "via": "listings",
-      "collection": "filter"
+      "model": "filter"
     }
   }
 }
