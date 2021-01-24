@@ -37,13 +37,13 @@
       "plugin": "upload",
       "required": false
     },
-    "filter": {
-      "model": "filter",
-      "via": "listings"
-    },
     "tags": {
       "collection": "tags",
       "via": "listing"
+    },
+    "filters": {
+      "via": "listings",
+      "collection": "filter"
     }
   }
 }
