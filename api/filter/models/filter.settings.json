@@ -11,7 +11,7 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "filter_Name": {
+    "name": {
       "type": "string"
     },
     "listings": {
