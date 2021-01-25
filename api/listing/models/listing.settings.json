@@ -25,6 +25,35 @@
     },
     "Finished_At": {
       "type": "date"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "tags": {
+      "collection": "tags",
+      "via": "listing"
+    },
+    "filter": {
+      "model": "filter",
+      "via": "listings"
+    },
+    "Status": {
+      "type": "enumeration",
+      "enum": [
+        "Planning",
+        "Current",
+        "Completed"
+      ],
+      "default": "Planning",
+      "required": true
     }
   }
 }

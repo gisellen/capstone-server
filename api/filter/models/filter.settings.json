@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "filters",
+  "info": {
+    "name": "Filter",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "listings": {
+      "via": "filter",
+      "collection": "listing"
+    }
+  }
+}
