@@ -54,6 +54,9 @@
       ],
       "default": "Planning",
       "required": true
+    },
+    "Images": {
+      "type": "string"
     }
   }
 }
