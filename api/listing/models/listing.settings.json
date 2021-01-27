@@ -57,6 +57,10 @@
     },
     "Images": {
       "type": "string"
+    },
+    "Review": {
+      "type": "richtext",
+      "default": "No review yet"
     }
   }
 }
